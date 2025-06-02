@@ -1,3 +1,3 @@
-# Padel Club Ireland Planner
+# Padel Club Planner
 
-Fully working, mobile-optimized financial planning tool.
+Fully functional investment calculator. Upload to GitHub Pages to publish.
