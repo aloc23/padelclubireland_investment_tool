@@ -1,1 +1,32 @@
-body { font-family: Arial; padding: 2rem; } .tab { margin-top: 2rem; } .logo { max-width: 120px; display: block; margin: auto; }
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background: #f9f9f9;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+}
+.logo {
+  width: 100px;
+  display: block;
+  margin: 0 auto 1rem;
+}
+.tabs button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+.tab {
+  display: none;
+}
+.tab.active {
+  display: block;
+}
+label {
+  display: block;
+  margin: 1rem 0;
+}

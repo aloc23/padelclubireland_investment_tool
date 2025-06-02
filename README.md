@@ -1,3 +1,3 @@
-# Padel Club Planner
+# Final Padel Club Planner
 
-Fully functional investment calculator. Upload to GitHub Pages to publish.
+Upload to GitHub and open index.html to launch your tool.
