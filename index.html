@@ -17,23 +17,12 @@
       <button onclick="showTab('pnl')">P&L</button>
       <button onclick="showTab('roi')">ROI</button>
     </div>
-
-    <div id="padel" class="tab active">
-      <h2>Padel Inputs</h2>
-      <label>Number of Courts: <input type="number" id="courts" value="4"></label>
-      <label>Peak Rate: €<input type="number" id="peakRate" value="40"></label>
-      <p>Total (example): €<span id="padelTotal">0</span></p>
-    </div>
-
-    <div id="gym" class="tab">
-      <h2>Gym Inputs</h2>
-      <label>Monthly Members: <input type="number" id="gymMembers" value="300"></label>
-      <p>Revenue (example): €<span id="gymRevenue">0</span></p>
-    </div>
-
-    <div id="pnl" class="tab"><h2>P&L (to come)</h2></div>
-    <div id="roi" class="tab"><h2>ROI (to come)</h2></div>
+    <div id="padel" class="tab active"><h2>Padel Section</h2><div id="padelContent">Loading calculator...</div></div>
+    <div id="gym" class="tab"><h2>Gym Section</h2><div id="gymContent">Loading calculator...</div></div>
+    <div id="pnl" class="tab"><h2>P&L Section</h2><canvas id="pnlChart" height="200"></canvas></div>
+    <div id="roi" class="tab"><h2>ROI Section</h2><canvas id="roiChart" height="200"></canvas></div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

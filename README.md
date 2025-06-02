@@ -1,3 +1,4 @@
-# Final Padel Club Planner
+# Padel Club Planner
 
-Upload to GitHub and open index.html to launch your tool.
+This is the full working version with charts and tab navigation.
+Open index.html or upload to GitHub Pages.
